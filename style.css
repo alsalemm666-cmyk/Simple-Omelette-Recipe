@@ -1,0 +1,51 @@
+  @import url(https://fonts.google.com/specimen/Young+Serif);
+  @import url(https://fonts.google.com/specimen/Outfit);
+  title{
+    background-image:url(assets\images\favicon-32x32.png);
+  }
+  body{
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  margin: 0;
+  }
+  .recipe{
+    background-color: hsl(330, 100%, 98%);
+    padding:35px;
+    padding-bottom: 18px;
+    border-radius: 20px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    top: 50%;
+    bottom: 50%;
+      }
+    img{
+    border-radius: 20px;
+    }
+    h1{
+    font-family: "Young Serif", "Outfit";  
+    } 
+    h2{
+    font-family: "Young Serif", "Outfit";  
+    color:hsl(14, 45%, 36%);
+    }
+    h3{
+      font-family: "Young Serif", "Outfit";
+      color:hsl(332, 51%, 32%);
+    }
+    table {
+  border-collapse: collapse;
+  width: 70%;
+}
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
